@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins, sans serif";
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(h.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.huitieme {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur 10px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.huitieme h1{
+    font-size:30px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.huitieme .inpt-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 50px 0;
+
+}
+
+.inpt-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size:16px;
+    color:  #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.inpt-box input::placeholder{
+    color: #fff;
+}
+.inpt-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.huitieme .koko{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.koko label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.koko a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.koko a:hover{
+    text-decoration: underline;
+}
+
+.huitieme .bou{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.huitieme .bou:hover{
+    transform: scale(1.05);
+
+}
+.huitieme .enregistre{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    
+}
+
+.enregistre p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.enregistre p a:hover{
+    text-decoration: underline;
+    
+}
